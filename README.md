@@ -1,14 +1,12 @@
 # 📊 Clustering de Mercados Financieros mediante Minería de Datos
 
-## 📌 Descripción del Proyecto
-
 Este proyecto aplica técnicas de **aprendizaje no supervisado** para identificar similitudes estructurales entre mercados financieros globales. A partir de datos históricos de índices bursátiles, se construyen variables financieras clave y se utilizan algoritmos de clustering para agrupar mercados con comportamientos similares.
 
 El objetivo es descubrir **patrones ocultos en los mercados**, permitiendo entender mejor su estructura, niveles de riesgo y relaciones globales.
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 * Obtener datos históricos de mercados financieros globales
 * Construir variables financieras relevantes
@@ -182,25 +180,10 @@ python market_clustering.py
 
 ---
 
-## 📌 Mejoras futuras
-
-* Incluir más mercados (30+ índices)
-* Agregar indicadores técnicos (RSI, MACD)
-* Construir grafos de correlación entre mercados
-* Analizar clustering dinámico en el tiempo
-* Crear dashboard interactivo (Streamlit)
-
----
-
-## 💼 Autor
+## Autor
 
 Salvador Hernandez
 Estudiante de Ingeniería en Software | Enfoque en Ciencia de Datos
 
----
-
-## ⭐ Nota final
-
 Este proyecto demuestra la aplicación de técnicas de **machine learning en mercados financieros**, combinando análisis estadístico y modelos de clustering para extraer conocimiento a partir de datos complejos.
 
----
