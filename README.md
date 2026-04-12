@@ -16,7 +16,7 @@ El objetivo es descubrir **patrones ocultos en los mercados**, permitiendo enten
 
 ---
 
-## 🌍 Mercados Analizados
+## Mercados Analizados
 
 Se analizaron los siguientes índices bursátiles:
 
@@ -34,17 +34,12 @@ Se analizaron los siguientes índices bursátiles:
 * ASX 200 (Australia)
 
 ---
-
-## 🧠 Metodología
-
 ### 1. Recolección de datos
 
 * Fuente: Yahoo Finance (`yfinance`)
 * Periodo: 2019 - Actualidad
 
-### 2. Ingeniería de características
-
-Se calcularon los siguientes indicadores financieros:
+### 2. Se calcularon los siguientes indicadores financieros:
 
 * Retorno promedio anual
 * Volatilidad anual
@@ -54,63 +49,6 @@ Se calcularon los siguientes indicadores financieros:
 * Máximo Drawdown
 * Value at Risk (VaR 95%)
 * Momentum
-
-### 3. Preprocesamiento
-
-* Eliminación de valores faltantes
-* Escalado de variables con `StandardScaler`
-
-### 4. Técnicas de Clustering
-
-#### 🔹 K-Means
-
-* Agrupamiento de mercados en clusters
-* Selección del número óptimo con método Elbow
-
-#### 🔹 Clustering Jerárquico
-
-* Método de Ward
-* Representación mediante dendrogramas
-
-#### 🔹 Clustering basado en correlaciones
-
-* Distancia definida como:
-
-  distance = √(2(1 - correlación))
-
-* Permite identificar mercados que se mueven de forma similar
-
-### 5. Reducción de dimensionalidad
-
-* PCA (Análisis de Componentes Principales) para visualización
-
----
-
-## 📈 Resultados e Interpretación
-
-El análisis permitió identificar distintos grupos de mercados financieros:
-
-### 🔹 Mercados desarrollados
-
-* Menor volatilidad
-* Retornos más estables
-* Mejor relación riesgo-retorno
-* Ejemplo: S&P 500, NASDAQ, DAX
-
-### 🔹 Mercados emergentes
-
-* Mayor volatilidad
-* Caídas más pronunciadas (drawdowns)
-* Mayor incertidumbre
-* Ejemplo: México, Brasil
-
-### 🔹 Mercados asiáticos
-
-* Alta correlación regional
-* Comportamientos propios del mercado asiático
-* Ejemplo: China, Japón, Corea
-
----
 
 ## 📊 Visualizaciones
 
@@ -139,7 +77,7 @@ financial-market-clustering/
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 1. Clonar el repositorio:
 
