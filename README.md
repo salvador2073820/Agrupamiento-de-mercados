@@ -92,7 +92,7 @@ python market_clustering.py
 ## Autor
 
 Salvador Hernandez
-Estudiante de Ingeniería en Software | Enfoque en Ciencia de Datos
+Estudiante de Ingeniería en Software | Enfoque en Mineria de Datos
 
 Este proyecto demuestra la aplicación de técnicas de **machine learning en mercados financieros**, combinando análisis estadístico y modelos de clustering para extraer conocimiento a partir de datos complejos.
 
