@@ -125,7 +125,7 @@ Para cada mercado se construyen **8 métricas financieras** a partir de los reto
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/SalvadorHernandezJuarez/Prediccion-abandono-de-clientes.git
+git clone https://github.com/SalvadorHernandezJuarez/Agrupamiento-de-mercados.git
 cd Prediccion-abandono-de-clientes
 ```
 
